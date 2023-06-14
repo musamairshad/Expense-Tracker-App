@@ -89,7 +89,7 @@ class _NewExpenseState extends State<NewExpense> {
         // Here this can also work fine without adding SingleChildScrollView.
         child: Padding(
           // padding: const EdgeInsets.fromLTRB(16.0, 48.0, 16.0, 16.0),
-          padding: EdgeInsets.fromLTRB(16.0, 48.0, 16.0, keyboardSpace + 16.0),
+          padding: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, keyboardSpace + 16.0),
           child: Column(
             children: [
               TextField(
